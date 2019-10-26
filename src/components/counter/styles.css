@@ -1,0 +1,56 @@
+.counter{
+    margin:10px 0;
+    display: flex;
+}
+ hr{
+    width: 65%;
+    margin-top:2px;
+    margin-bottom:2px;
+    margin-left: 15%;
+    
+   
+}
+.counter .less p, .counter .more p{
+    margin-top:-3px;
+}
+@media only screen and (max-width:320px){
+    hr{
+        width: 78%;
+        margin-left: 7%;
+    }
+}
+.counter p{
+    text-align: center;
+    margin: 0;
+}
+.delete{
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+    0px 4px 5px 0px rgba(0,0,0,0.14),
+    0px 1px 10px 0px rgba(0,0,0,0.12);
+    background: white;
+    color:#333;
+    font-weight:bolder;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    border:none;
+}
+.delete img{
+    width: 100%;
+}
+.counter-name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dot{
+    margin-top:8px;
+    margin-right: 10px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background: #333;
+
+}

@@ -1,0 +1,58 @@
+.appBar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 12%;
+}
+
+.filter img{
+    
+    width: 25px;
+    height: 25px;
+}
+@media only screen and (max-width:320px){
+    .logo{
+        width: 35%;
+    }
+    .filter img{
+       
+        width: 20px;
+        height: 20px;
+    }
+}
+@media only screen and (min-width:321px) and (max-width:375px){
+    .logo{
+        width: 36%;
+    }
+    .filter img{
+      
+        width: 23px;
+        height: 23px;
+    }
+}
+@media only screen and (min-width:376px) and (max-width:425px){
+    .logo{
+        width: 30%;
+    }
+    .filter img{
+      
+        width: 22px;
+        height: 22px;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:768px){
+    .logo{
+        width: 20%;
+    }
+    .filter img{
+      
+        width: 24px;
+        height: 24px;
+    }
+}
+/* .typography{
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}  */

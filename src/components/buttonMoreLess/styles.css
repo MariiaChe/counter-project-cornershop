@@ -1,0 +1,65 @@
+.BtnMoreLess{
+    display: flex;
+    justify-content: center;
+    width: 75px;
+    height: 25px; 
+}
+.BtnMoreLess input{
+   font-size:1rem; 
+    color: #4f4f4f;
+    width: 20px;
+    border:none;
+    text-align: center;
+    height: 23px;
+
+    
+
+}
+.less, .more{
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+                0px 4px 5px 0px rgba(0,0,0,0.14),
+                0px 1px 10px 0px rgba(0,0,0,0.12);
+    background: white;
+    color:#333;
+    font-weight:bolder;
+    text-align: center;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    border:none;
+    
+}
+.less{
+   margin-right: 4px
+}
+ .more{
+   margin-left: 4px
+} 
+.less p, .more p{
+   
+    margin-bottom: 0;
+    margin-top:-2px;
+    margin-left:0px;
+    font-size: 1.2rem;
+    font-weight: 300;
+   
+}
+/* .less p{
+    
+    margin-left:0px; 
+}
+.more p{
+    margin-left:0px;
+} */
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* otro input */

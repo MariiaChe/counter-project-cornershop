@@ -1,5 +1,6 @@
 {
   "name": "counter-project-cornershop",
+  "homepage": "http://Mariia1304.github.io/counter-project-cornershop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +14,8 @@
     "redux": "^4.0.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +41,7 @@
     "enzyme": "^3.10.0",
     "eslint": "^6.5.1",
     "eslint-plugin-react": "^7.16.0",
+    "gh-pages": "^2.1.1",
     "react-test-renderer": "^16.11.0"
   }
 }

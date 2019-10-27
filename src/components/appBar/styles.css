@@ -56,3 +56,6 @@
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }  */
+.MuiSvgIcon-root{
+    margin-top: -10px;
+}

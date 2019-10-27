@@ -12,8 +12,12 @@ function Page(props){
     return (
        <AppBar style={{background:'black'}} position='sticky'>
            <Toolbar className="appBar">
-                <img className="logo" src={Logo}/>
-                <SearchComponent/>
+            
+                    <img className="logo" src={Logo}/>
+           
+              
+                    <SearchComponent/>
+           
                 
            </Toolbar>
        </AppBar>

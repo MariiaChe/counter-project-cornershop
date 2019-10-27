@@ -1,9 +1,23 @@
+
 .counterlist{
-    padding-right:7px;
+   
+    padding-left: 7px;
 }
 .filter-addcounter{
-    padding-left: 7px;
+    padding-right:7px;
 }
 .counter-list, .filter-bar{
     margin-top: 14px;
+}
+@media only screen and (max-width:425px) {
+    .counterlist{
+        padding-right:15px;
+    }
+    .filter-addcounter{
+        padding-left: 15px;
+    }
+    .counter-list, .filter-bar{
+        margin-top: 14px;
+      
+    }
 }

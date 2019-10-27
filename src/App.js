@@ -9,15 +9,15 @@ function App() {
   return (
     <React.Fragment>
       <IAppBar/>
-      <div className="container">
+      <div className="container app">
         <div className="row">
-          <div className="col-12 col-md-6 counterlist">
-            <CounterList/>
-          </div>
           <div className="col-12 col-md-6 filter-addcounter">
             <FilterBar/>
             <AddCounter/>
           </div>
+          <div className="col-12 col-md-6 counterlist">
+            <CounterList/>
+          </div>  
         </div>
       </div>
       

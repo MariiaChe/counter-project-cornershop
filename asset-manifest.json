@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/counter-project-cornershop/static/css/main.87422f27.chunk.css",
+    "main.css": "/counter-project-cornershop/static/css/main.a20a9941.chunk.css",
     "main.js": "/counter-project-cornershop/static/js/main.6b3f2334.chunk.js",
     "main.js.map": "/counter-project-cornershop/static/js/main.6b3f2334.chunk.js.map",
     "runtime-main.js": "/counter-project-cornershop/static/js/runtime-main.f9aeb49e.js",
@@ -9,16 +9,16 @@
     "static/js/2.68dcab1e.chunk.js": "/counter-project-cornershop/static/js/2.68dcab1e.chunk.js",
     "static/js/2.68dcab1e.chunk.js.map": "/counter-project-cornershop/static/js/2.68dcab1e.chunk.js.map",
     "index.html": "/counter-project-cornershop/index.html",
-    "precache-manifest.f7ae74b7495f7c7eb0c9e3a21cef19f0.js": "/counter-project-cornershop/precache-manifest.f7ae74b7495f7c7eb0c9e3a21cef19f0.js",
+    "precache-manifest.c2eb4918b9fb0c1d80e63a87f3b808af.js": "/counter-project-cornershop/precache-manifest.c2eb4918b9fb0c1d80e63a87f3b808af.js",
     "service-worker.js": "/counter-project-cornershop/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/counter-project-cornershop/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.87422f27.chunk.css.map": "/counter-project-cornershop/static/css/main.87422f27.chunk.css.map"
+    "static/css/main.a20a9941.chunk.css.map": "/counter-project-cornershop/static/css/main.a20a9941.chunk.css.map"
   },
   "entrypoints": [
     "static/js/runtime-main.f9aeb49e.js",
     "static/css/2.510409cd.chunk.css",
     "static/js/2.68dcab1e.chunk.js",
-    "static/css/main.87422f27.chunk.css",
+    "static/css/main.a20a9941.chunk.css",
     "static/js/main.6b3f2334.chunk.js"
   ]
 }

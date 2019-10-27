@@ -11,13 +11,16 @@
 }
 @media only screen and (max-width:425px) {
     .counterlist{
-        padding-right:15px;
+        padding-left:15px;
     }
     .filter-addcounter{
-        padding-left: 15px;
+        padding-right: 15px;
     }
-    .counter-list, .filter-bar{
-        margin-top: 14px;
+    .filter-bar{
+        margin-top: 10px;
       
+    }
+    .counter-list{
+        margin-top: 0px;
     }
 }

@@ -1,35 +1,36 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+
 import './styles.css';
 import Counter from '../counter/index'
 function Page(props){
 
 
     return (
-     <React.Fragment>
-        <Grid container
-            direction="row"
-            justify="center"
-            alignItems="center"
-        >
-            <Grid item xs={11} sm={9}>
-                <Counter names="Tommy" />
-            </Grid>
-            <Grid item xs={11} sm={9}>
-                <Counter names="Tommy" />
-            </Grid>
-            <Grid item xs={11} sm={9}>
-                <Counter names="Tommy" />
-            </Grid>
-            <Grid item xs={11} sm={9}>
-                <Counter names="Tommy" />
-            </Grid>
-            <Grid item xs={11} sm={9}>
-                <Counter names="Tommy" />
-            </Grid>
+     
+       <div className="counter-list container">
+           <div>
+                <p>
+                    Team List:
+                </p>
+            </div>
+
+                <Counter names="Tommy dser" />
          
-        </Grid>
-     </React.Fragment>
+   
+                <Counter names="Tom" />
+         
+           
+                <Counter names="Tommyw" />
+        
+            
+                <Counter names="Tommy hyus" />
+            
+         
+                <Counter names="Tommy cd" />
+           
+                </div>
+      
+  
     )
 }
 export default Page;

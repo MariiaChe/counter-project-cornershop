@@ -1,27 +1,45 @@
 .counter{
-    margin:10px 0;
+    margin:15px 0;
     display: flex;
-}
- hr{
-    width: 65%;
-    margin-top:2px;
-    margin-bottom:2px;
-    margin-left: 15%;
-    
+    align-items: center;
    
 }
-.counter .less p, .counter .more p{
-    margin-top:-3px;
+ hr{
+    width: 94%;
+    margin-top:2px;
+    margin-bottom:2px;
+    margin-right: 30%
+
+    
+    
 }
-@media only screen and (max-width:320px){
+.counter .less p, .counter .more p{
+    margin-top:-5px;
+}
+.counter input{
+    margin-top: 0px;
+}
+@media only screen and (max-width:425px){
     hr{
-        width: 78%;
-        margin-left: 7%;
+        width:100%;
+       
     }
 }
-.counter p{
-    text-align: center;
+@media only screen and (min-width:426px) and (max-width:768px){
+    hr{
+        width:90%;
+       
+    }
+}
+.counter-name{
+    display: flex;
+    align-items: center;
+}
+.counter-name p{
+  
     margin: 0;
+    font-size: 14px;
+    color:#333;
 }
 .delete{
     box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
@@ -36,17 +54,19 @@
     border-radius: 50%;
     background-color: #f1f1f1;
     border:none;
+    
 }
 .delete img{
+    margin-top:-7px;
     width: 100%;
 }
 .counter-name{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+ 
 }
 .dot{
-    margin-top:8px;
+ 
     margin-right: 10px;
     height: 5px;
     width: 5px;

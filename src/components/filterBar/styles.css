@@ -1,41 +1,39 @@
 .filter-bar{
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: space-between;
-    align-items: center; */
-    padding: 10px;
-    height: 100px;
+     border-radius: 5px;
+     margin-top:3%;
+     margin-bottom:3%;
+    padding: 10px 10px 30px 10px;
     box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
                 0px 4px 5px 0px rgba(0,0,0,0.14),
                 0px 1px 10px 0px rgba(0,0,0,0.12);
 }
+.filter-bar .row{
+     justify-content: center;
+}
 .filter-bar .text p{
-     padding:5px 0;
-     text-align: center;
-     margin:0;
+     font-size: 14px;
      color:#333;
 }
 .filter{
-  
     display: flex;
     flex-direction: row;
-   
 }
 .radio-buttons{
-     margin-top:-10px;
      display: flex;
      flex-direction: column;
-     text-align: center;
    
 }
-
-
-/* .filter-bar p:first-child{
-    padding-top:5px;
-    margin:0;
-} */ 
+.radio-buttons .row{
+    display: flex;
+    justify-content: left;
+}
+.radio-buttons p{
+     margin-top:0px;
+     margin-bottom: 5px;
+     font-size: 14px;
+}
 .form-radio
-{
+{    margin-top:-7px;
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
@@ -44,8 +42,8 @@
      background-color: #f1f1f1;
      color: #333;
      top: 8px;
-     height: 20px;
-     width: 20px;
+     height: 21px;
+     width: 21px;
      border: 0;
      border-radius: 50px;
      cursor: pointer;     
@@ -58,7 +56,7 @@
 .form-radio:checked::before
 {
      position: absolute;
-     font: 13px/1 'Open Sans', sans-serif;
+     font: 14px/1 'Open Sans', sans-serif;
      left: 6px;
      top: 2px;
      content: '\02143';
@@ -72,31 +70,32 @@
 {
      background-color: #f1f1f1;
 }
-label
-{    
-     line-height: 10px;
-     font-size: 14px;
-     color: #333;
-     -webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
-     cursor: pointer;
-} 
-.button-more-less{
+.clear{
+     margin-top: -2px;
+     margin-bottom: 2px;
+}
+.filter-bar .col-4:nth-child(1){
      display: flex;
      justify-content: center;
-     margin-left: 25px;
-  
-     
 }
-.apply{
-    
+.filter-bar .col-4:nth-child(3){
      display: flex;
-     flex-direction: column;
-     
-
+    flex-direction: column;
+    /* justify-content: right; */
+    align-items:center;
 }
-.apply div{
+.filter-bar .col-4:nth-child(2){
      display: flex;
+     flex-direction: row;
      justify-content: center;
-     justify-items: center;
+}
+.filter .col-4:nth-child(2) div{
+     display:flex;
+     align-items: center;
+}
+.filter .BtnMoreLess .less p{
+     margin-left:7px;
+}
+.filter .BtnMoreLess .more p{
+     margin-left: 5px;
 }

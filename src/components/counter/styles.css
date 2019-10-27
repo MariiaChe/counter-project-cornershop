@@ -14,7 +14,8 @@
     
 }
 .counter .less p, .counter .more p{
-    margin-top:0px;
+    font-size: 20px;
+    margin-top:-5px;
 }
 .counter input{
     margin-top: 0px;

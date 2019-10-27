@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f06033b71543992ba5c58fed7a52023a",
+    "revision": "2cde5b2eea7b7b721e829c73cd785473",
     "url": "/counter-project-cornershop/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/counter-project-cornershop/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "5efbd7d08cb453edc628",
-    "url": "/counter-project-cornershop/static/css/main.a20a9941.chunk.css"
+    "revision": "7297e3085f929f60603f",
+    "url": "/counter-project-cornershop/static/css/main.10d26499.chunk.css"
   },
   {
     "revision": "0cf1af02de7bd9d75c51",
     "url": "/counter-project-cornershop/static/js/2.68dcab1e.chunk.js"
   },
   {
-    "revision": "5efbd7d08cb453edc628",
+    "revision": "7297e3085f929f60603f",
     "url": "/counter-project-cornershop/static/js/main.6b3f2334.chunk.js"
   },
   {

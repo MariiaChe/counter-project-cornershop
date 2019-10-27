@@ -1,0 +1,9 @@
+.counterlist{
+    padding-right:7px;
+}
+.filter-addcounter{
+    padding-left: 7px;
+}
+.counter-list, .filter-bar{
+    margin-top: 14px;
+}

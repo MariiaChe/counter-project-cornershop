@@ -9,8 +9,8 @@ function Page(props){
     
     return (
        
-        <div className="filter-bar">
-            <div className="container">
+        <div className="filter-bar container">
+            
                 <div className="row">
                     <div className="text">
                         <p>Filter members per count´s number:</p>
@@ -42,7 +42,7 @@ function Page(props){
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </div> 
     )
 }

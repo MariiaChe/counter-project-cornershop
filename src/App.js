@@ -11,10 +11,10 @@ function App() {
       <IAppBar/>
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 counterlist">
             <CounterList/>
           </div>
-          <div className="col-12 col-md-6">
+          <div className="col-12 col-md-6 filter-addcounter">
             <FilterBar/>
             <AddCounter/>
           </div>

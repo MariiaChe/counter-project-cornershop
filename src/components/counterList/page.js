@@ -27,6 +27,18 @@ function Page(props){
             
          
                 <Counter names="Tommy cd" />
+                <Counter names="Tommy hyus" />
+            
+         
+                <Counter names="Tommy cd" />
+                <Counter names="Tommy hyus" />
+            
+         
+                <Counter names="Tommy cd" />
+                <Counter names="Tommy hyus" />
+            
+         
+                <Counter names="Tommy cd" />
            
                 </div>
       

@@ -1,12 +1,31 @@
 import React, { Component } from 'react';
 import './styles.css'
 class ButtonMoreLess extends Component{
+    constructor(props){
+        super(props) 
+        this.state={
+          quantity:0
+        }
+        this.sumar=this.add.bind(this)
+        this.restar=this.subtract.bind(this)
+       
+    }
+    subtract(){
+        this.setState({
+            quantity:this.state.quantity-1
+        })
+    }
+    add(){
+        this.setState({
+            quantity:this.state.quantity+1
+        })
+    }
     render(){
         return(
-            <div className="BtnMoreLess">
-                <div className="less"><p>-</p></div>
-                <input  type="number" value="0"/>
-                <div className="more"><p>+</p></div>
+            <div key={this.props.idBML} className="BtnMoreLess">
+                <div onClick={()=>this.subtract()} className="less"><p>-</p></div>
+                <input  type="number" value={this.state.quantity}/>
+                <div onClick={()=>this.add()} className="more"><p>+</p></div>
             </div>  
         )
     }

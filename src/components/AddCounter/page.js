@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './styles.css';
 import '../buttonMoreLess/index'
 import ButtonMoreLess from '../buttonMoreLess/index';
 import ButtonApply from '../buttonApply/index';
 
 
-function Page(props){
-  
+class Page extends Component{
+  render(){
     
     return (
         <div className="add-counter container">
@@ -19,17 +19,18 @@ function Page(props){
                 <div className="row">
 
                     <div className="col-md-5 col-12">
-                        <input placeholder="  Put name..."/>
+                        <input type="text" placeholder="  Put name..." onChange={(e)=>this.props.handleChange(e)} />
                     </div> 
                     <div className="col-md-4 col-6">
-                        <ButtonMoreLess/>
+                        <ButtonMoreLess idBML="btn-add-counter"/>
                     </div> 
                     <div className="col-md-3 col-6">
-                        <ButtonApply text="Add" />
+                        <ButtonApply idBa="btn-add-new-counter" addPost={this.props.addPost} text="Add" />
                     </div> 
                 </div>
             </div>
         </div>
     )
+}
 }
 export default Page;

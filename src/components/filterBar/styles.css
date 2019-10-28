@@ -97,16 +97,16 @@
      display:flex;
      align-items: center;
 }
-.filter .BtnMoreLess .less p{
+/* .filter .BtnMoreLess .less p{
      margin-top:-2px;
      margin-left:6px;
      font-size: 20px;
-}
-.filter .BtnMoreLess .more p{
+} */
+/* .filter .BtnMoreLess .more p{
      margin-top:-2px;
      margin-left: 4px;
      font-size: 20px;
-}
+} */
 .filter .button-apply:first-child{
      margin-bottom: 6px;
 }

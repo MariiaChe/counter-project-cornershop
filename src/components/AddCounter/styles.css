@@ -29,10 +29,10 @@
     align-items: center;
     padding-bottom:20px;
 }
-.add-counter .more p, .add-counter .less p{
+/* .add-counter .more p, .add-counter .less p{
     margin-top:-5px;
     font-size: 20px;
-}
+} */
 
 @media only screen and (max-width:425px){
     .add-counter input:first-child{

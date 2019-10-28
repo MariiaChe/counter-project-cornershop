@@ -13,10 +13,10 @@
     
     
 }
-.counter .less p, .counter .more p{
+/* .counter .less p, .counter .more p{
     font-size: 20px;
     margin-top:-5px;
-}
+} */
 .counter input{
     margin-top: 0px;
 } 

@@ -14,6 +14,7 @@ class ButtonMoreLess extends Component{
         this.setState({
             quantity:this.state.quantity-1
         })
+
     }
     add(){
         this.setState({
@@ -24,7 +25,7 @@ class ButtonMoreLess extends Component{
         return(
             <div key={this.props.idBML} className="BtnMoreLess">
                 <div onClick={()=>this.subtract()} className="less"><p>-</p></div>
-                <input  type="number" value={this.state.quantity}/>
+                <input  type="number" value={this.props.count} />
                 <div onClick={()=>this.add()} className="more"><p>+</p></div>
             </div>  
         )

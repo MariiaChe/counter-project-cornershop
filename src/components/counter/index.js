@@ -17,7 +17,7 @@ class Counter extends Component{
             </div>
         </div>
         <div className="col-5">
-            <ButtonMoreLess count={this.props.count} />
+            <ButtonMoreLess id={this.props.id} idBML={this.props.idBML} subtractCount={this.props.subtractCount} addCount={this.props.addCount} count={this.props.count} />
         </div>
         <div className="col-2">
             <button onClick={()=>this.props.deleteCounter(this.props.id)} className="delete">

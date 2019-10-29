@@ -10,7 +10,6 @@ class App extends Component{
           super(props);
           this.state={
               query:'',
-              count: 0
             }
           this.handleChange=this.handleChange.bind(this);
           this.addPost=this.addPost.bind(this);
@@ -39,6 +38,8 @@ class App extends Component{
         console.log(error)
     })
   }
+
+  
 render(){
     return (
       <React.Fragment>

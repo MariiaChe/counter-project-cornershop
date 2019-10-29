@@ -4,7 +4,7 @@ import Page from './page'
 class FilterBar extends  Component {
     render(){
         return(
-            <Page />
+            <Page idBML="id-BML"/>
         )
     }
 }

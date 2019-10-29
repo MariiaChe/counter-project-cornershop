@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ButtonMoreLess from '../buttonMoreLess/index';
 import ButtonApply from '../buttonApply/index';
 
 import './styles.css'
 
-function Page(props){
+class Page extends Component{
   
-    
+    render(){
     return (
        
         <div className="filter-bar container">
@@ -29,7 +29,7 @@ function Page(props){
                             </div>
                             <div className="col-4">
                                 <div>
-                                    <ButtonMoreLess /> 
+                                    <ButtonMoreLess idBML={this.props.idBML} /> 
                                 </div>
                             </div>
                             <div className="col-4">
@@ -45,5 +45,6 @@ function Page(props){
             
         </div> 
     )
+    }
 }
 export default Page;

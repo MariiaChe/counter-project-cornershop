@@ -80,7 +80,7 @@ class CounterList extends  Component {
                 <div className="row search-bar">
                     <div className="col-4">
                      <p>
-                         Team List:
+                         Team List
                      </p>
                      </div>
                      <div className="col-8">

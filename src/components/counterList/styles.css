@@ -15,8 +15,10 @@
     border-top-right-radius: 5px;
     background: black;
     height: 40px;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
 } 
 .search-bar .col-8{
+    padding-left: 0;
     display: flex;
     align-content: center;
     align-items: center;
@@ -27,6 +29,8 @@
     width: 100%;
 }
 .search-bar .col-4{
+    padding-left: 0;
+    padding-right:  0;
     display: flex;
     align-content: center;
     align-items: center;
@@ -46,8 +50,5 @@
     margin: 1px;
 }
 @media only screen and (max-width:425px){
-    .counter-list p:first-child{
-       
-         font-size: 14px;
-     }
+   
 }

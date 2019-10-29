@@ -4,23 +4,56 @@
     padding-left: 7px;
 }
 .filter-addcounter{
+    margin-top:14px;
     padding-right:7px;
 }
-.counter-list, .filter-bar{
-    margin-top: 14px;
+.filter-container,.add-container,.order-container{
+    padding-left:16px;
+    padding-right: 16px;
+
+}
+.btns button{
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+                0px 4px 5px 0px rgba(0,0,0,0.14),
+                0px 1px 10px 0px rgba(0,0,0,0.12);
+    font-size: 16px;
+    border:none;
+   
+   
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+.btns.col-4:first-child{
+  padding-right:0;
+border:1px solid white;
+ 
+}
+
+.btns.col-4:nth-child(2){
+    padding-right: 0;
+    padding-left: 0;
+    border:1px solid white;
+  
+}
+
+.btns.btns.col-4:nth-child(3){
+    padding-left: 0;
+    border:1px solid white;
+}
+
+.btns button{
+    background: black;
+    color: white !important;
+    width: 100%;
 }
 @media only screen and (max-width:425px) {
     .counterlist{
-        padding-left:15px;
+        padding-left:16px;
+        padding-right: 16px;
     }
     .filter-addcounter{
+        margin-top:8px;
         padding-right: 15px;
     }
-    .filter-bar{
-        margin-top: 10px;
-      
-    }
-    .counter-list{
-        margin-top: 0px;
-    }
+   
 }

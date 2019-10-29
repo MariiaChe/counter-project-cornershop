@@ -3,7 +3,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import './styles.css'
-import SearchComponent from '../searchComponent/index';
+
 // import Filter from '../../img/filter.png';
 import Logo from '../../img/logo.png';
 function Page(props){
@@ -16,7 +16,7 @@ function Page(props){
                     <img className="logo" src={Logo}/>
            
               
-                    <SearchComponent/>
+              
            
                 
            </Toolbar>

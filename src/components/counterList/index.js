@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import './styles.css';
+import SearchComponent from '../searchComponent/index';
 import Counter from '../counter/index'
 // import Page from './page'
 
@@ -76,10 +77,15 @@ class CounterList extends  Component {
         // console.log(this.state.counters)
         return (
             <div className="counter-list container">
-                <div>
+                <div className="row search-bar">
+                    <div className="col-4">
                      <p>
                          Team List:
                      </p>
+                     </div>
+                     <div className="col-8">
+                     <SearchComponent/>
+                     </div>
                  </div>
                     {this.showCounterList()}
                  </div>

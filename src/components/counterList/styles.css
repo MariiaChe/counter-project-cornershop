@@ -1,17 +1,53 @@
 .counter-list{
     border-radius: 5px;
     margin:14px 0;
-    padding: 10px 0;
-    padding-left: 6%; 
     box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2), 0px 4px 5px 0px rgba(0,0,0,0.14), 0px 1px 10px 0px rgba(0,0,0,0.12);
 }
 .counter-list p:first-child{
-    text-align: center;
+   align-items: center;
+   
+    padding:0;
+    margin:0;
     font-size: 16px;
 }
-@media only screen and (max-width:768px){
-    .counter-list{
+.search-bar{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: black;
+    height: 40px;
+} 
+.search-bar .col-8{
+    display: flex;
+    align-content: center;
+    align-items: center;
+  
+
+}
+.search-bar .col-8 .main-container{
+    width: 100%;
+}
+.search-bar .col-4{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content:center;
+
+}
+.search-bar .col-4 p{
+    color: white;
+}
+.MuiInputBase-input{
+    padding: 0px 0 4px !important;
+}
+.container-icon{
+    margin-top:0px !important;
+}
+.MuiSvgIcon-root{
+    margin: 1px;
+}
+@media only screen and (max-width:425px){
+    .counter-list p:first-child{
        
-        padding: 10px; 
-    } 
+         font-size: 14px;
+     }
 }

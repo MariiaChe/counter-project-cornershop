@@ -10,7 +10,7 @@
     font-size: 16px;
     text-align: center;
 }
-.add-counter input:first-child{
+.add-counter .container .col-9 input{
    
    background:#f1f1f1;
    border:none;

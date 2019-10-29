@@ -1,0 +1,27 @@
+
+
+.numbers img{
+   
+    height: 20px;
+}
+.row.numbers, .row.letters{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding-bottom:10px;
+    
+}
+.numbers input, .letters input{
+    margin-top:-18px;
+}
+.letters img{
+    height: 22px;
+}
+.btn-apply{
+    display: flex;
+   justify-content: center;
+}
+.btn-apply .button-apply{
+    margin-bottom: 10px;
+}

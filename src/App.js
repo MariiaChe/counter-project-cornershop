@@ -15,6 +15,7 @@ class App extends Component{
       showAdd:false
     }
   }
+
   toggleButtons(string){
     if(string==="filter"){
       this.setState({showFilter:true})
@@ -30,7 +31,12 @@ class App extends Component{
       this.setState({showAdd:true})
     }
   }
+ 
   render(){
+    const styles={
+      background:"#f1f1f1",
+      color:"black"
+    }
       return (
           <React.Fragment>
             <IAppBar/>
@@ -38,15 +44,30 @@ class App extends Component{
               <div className="row">
                 <div className="col-12 col-md-6 filter-addcounter">
                   <div className="row">
+                    {this.state.showFilter?
                     <div className="btns col-4">
+                      <button style={styles} onClick={()=>{this.toggleButtons('filter')}}>Filter</button>
+                    </div>:
+                    <div  className="btns col-4">
                       <button onClick={()=>{this.toggleButtons('filter')}}>Filter</button>
                     </div>
+                    }
+                    {this.state.showOrder?
+                    <div className="btns col-4">
+                      <button style={styles} onClick={()=>{this.toggleButtons('order')}} >Order</button>
+                    </div>:
                     <div className="btns col-4">
                       <button onClick={()=>{this.toggleButtons('order')}} >Order</button>
                     </div>
+                    }
+                    {this.state.showAdd?
                     <div className="btns col-4">
-                      <button onClick={()=>{this.toggleButtons('add')}}>Add</button>
-                    </div>
+                      <button style={styles} onClick={()=>{this.toggleButtons('add')}}>Add</button>
+                    </div>:
+                    <div className="btns col-4">
+                    <button onClick={()=>{this.toggleButtons('add')}}>Add</button>
+                  </div>
+                    }
                   </div>
                   <div className="row">
                     {

@@ -21,9 +21,9 @@ class Page extends Component{
                         <div className="filter">
                             <div className="col-4">
                                 <div className="radio-buttons">
-                                    <div className="row"><input type="radio" name="gender" value="more" className="form-radio"/><p for="radio-one">More</p></div>
+                                    <div className="row"><input type="radio" name="gender" value="more" className="form-radio"/><p>More</p></div>
                                     <div className="row">
-                                        <input type="radio" name="gender" value="less" className="form-radio"/><p for="radio-one">Less</p>
+                                        <input type="radio" name="gender" value="less" className="form-radio"/><p>Less</p>
                                     </div>
                                 </div>
                             </div>

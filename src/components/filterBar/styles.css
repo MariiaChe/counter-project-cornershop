@@ -1,4 +1,5 @@
-.filter-bar{
+.filter-bar.container{
+     height: 140px;
      border-bottom-left-radius: 5px;
      border-bottom-right-radius: 5px;
     padding: 10px 10px 30px 10px;

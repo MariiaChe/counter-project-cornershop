@@ -1,4 +1,6 @@
-
+.add-counter.container{
+    height: 140px;
+}
 .numbers img{
    
     height: 20px;

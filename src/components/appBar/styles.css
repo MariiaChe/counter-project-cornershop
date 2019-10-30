@@ -1,16 +1,14 @@
 .appBar{
     display: flex;
-    justify-content: space-between;
+    
 }
-.logo{
-    width: 12%;
+.appBar img{
+    margin-left: -10px;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
 }
 
-.filter img{
-    
-    width: 25px;
-    height: 25px;
-}
 @media only screen and (max-width:320px){
     .logo{
         width: 35%;

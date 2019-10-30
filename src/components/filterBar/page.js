@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ButtonMoreLess from '../buttonMoreLess/index';
 import ButtonApply from '../buttonApply/index';
+import More from '../../img/morethan.png';
+import Less from '../../img/lessthan.png'
 
 import './styles.css'
 
@@ -21,9 +23,13 @@ class Page extends Component{
                         <div className="filter">
                             <div className="col-4">
                                 <div className="radio-buttons">
-                                    <div className="row"><input type="radio" name="gender" value="more" className="form-radio"/><p>More</p></div>
                                     <div className="row">
-                                        <input type="radio" name="gender" value="less" className="form-radio"/><p>Less</p>
+                                        <input type="radio" name="gender" value="more" className="form-radio"/>
+                                        <img src={More}/>
+                                    </div>
+                                    <div className="row">
+                                        <input type="radio" name="gender" value="less" className="form-radio"/>
+                                        <img src={Less}/>
                                     </div>
                                 </div>
                             </div>

@@ -1,5 +1,4 @@
 
-
 .numbers img{
    
     height: 20px;
@@ -16,7 +15,7 @@
     margin-top:-18px;
 }
 .letters img{
-    height: 22px;
+    height: 23px;
 }
 .btn-apply{
     display: flex;
@@ -25,3 +24,63 @@
 .btn-apply .button-apply{
     margin-bottom: 10px;
 }
+.filter .radio-buttons{
+    display: flex;
+    flex-direction: column;
+  
+}
+.add-counter .radio-buttons .row{
+   display: flex;
+   justify-content: left;
+}
+.add-counter .radio-buttons img{
+   height: 15px;
+   width: 15px;
+}
+
+.add-counter .form-radio
+{    
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    position: relative;
+    background-color: #f1f1f1;
+    color: #333;
+    top: 8px;
+    height: 21px;
+    width: 21px;
+    border: 0;
+    border-radius: 50px;
+    cursor: pointer;     
+    margin-right: 7px;
+    outline: none;
+    box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),
+                   0px 4px 5px 0px rgba(0,0,0,0.14),
+                   0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.add-counter .letters .form-radio{
+    margin-top:-17px;
+}
+.add-counter .numbers .form-radio{
+    margin-top:-18px;
+}
+.add-counter .form-radio:checked::before
+{
+    position: absolute;
+    font: 14px/1 'Open Sans', sans-serif;
+    left: 6px;
+    top: 2px;
+    content: '\02143';
+    transform: rotate(40deg);
+}
+.add-counter .form-radio:hover
+{
+    background-color: #f7f7f7;
+}
+.add-counter .form-radio:checked
+{
+    background-color: #f1f1f1;
+}
+
+

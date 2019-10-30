@@ -42,7 +42,9 @@ class Page extends Component{
                                 <div className="clear">
                                     <ButtonApply  text="Clear"/>
                                 </div>
+                                <div className="apply">
                                     <ButtonApply  text="Apply"/>
+                                </div>
                                 
                             </div>
                         </div>

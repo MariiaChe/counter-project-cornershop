@@ -19,13 +19,6 @@
 .letters img{
     height: 23px;
 }
-.btn-apply{
-    display: flex;
-   justify-content: center;
-}
-.btn-apply .button-apply{
-    margin-bottom: 10px;
-}
 .filter .radio-buttons{
     display: flex;
     flex-direction: column;
@@ -83,6 +76,15 @@
 .add-counter .form-radio:checked
 {
     background-color: #f1f1f1;
+}
+.btns-clear-apply .clear{
+   margin-bottom:10px;
+}
+.btns-clear-apply{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: right; */
+    align-items: center;
 }
 
 

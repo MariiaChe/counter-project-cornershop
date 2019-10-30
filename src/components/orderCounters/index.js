@@ -37,11 +37,16 @@ class OrderCounters extends Component{
                             <img src={Num21}/>
                         </div>
                     </div>            
-                    <div className="btn-apply col-4">
-                        <ButtonApply idBa="btn-add-new-counter" addPost={this.addPost} text="Apply" />
-                    </div> 
+                    <div className="btns-clear-apply col-4">
+                        <div className="clear">
+                            <ButtonApply   text="Clear" />
+                        </div>
+                        <div className="clear">
+                            <ButtonApply  text="Apply" />
+                        </div>
                     </div>
                 </div>
+            </div>
             </div>
         )
     }

@@ -32,10 +32,9 @@ class AddCounter extends Component {
             })
         }).then(response => {
                 console.log(response)
-            })
-            .catch(error =>{
+        }).catch(error =>{
                 console.log(error)
-            })
+        })
     }
     render(){
         return (
@@ -54,7 +53,7 @@ class AddCounter extends Component {
                             <ButtonMoreLess idBML="btn-add-counter"/>
                         </div>  */}
                         <div className="col-3">
-                            <ButtonApply idBa="btn-add-new-counter" addPost={this.addPost} text="Add" />
+                            <ButtonApply idBa="btn-add-new-counter" handleClick={this.addPost} text="Add" />
                         </div> 
                     </div>
                 </div>

@@ -7,7 +7,17 @@ import Less from '../../img/lessthan.png'
 import './styles.css'
 
 class Page extends Component{
-  
+    constructor(props){
+        super(props);
+        this.clearFilter=this.clearFilter.bind(this)
+        this.applyFilter=this.applyFilter.bind(this)
+    }
+    clearFilter(){
+        alert('clearfilter')
+    }
+    applyFilter(){
+        alert('applyfilter')
+    }
     render(){
     return (
        
@@ -35,24 +45,22 @@ class Page extends Component{
                             </div>
                             <div className="col-4">
                                 <div>
-                                    <ButtonMoreLess idBML={this.props.idBML} /> 
+                                    <ButtonMoreLess /> 
                                 </div>
                             </div>
                             <div className="col-4">
                                 <div className="clear">
-                                    <ButtonApply  text="Clear"/>
+                                    <ButtonApply idBA="btn-clear-filter" handleClick={this.clearFilter}  text="Clear"/>
                                 </div>
                                 <div className="apply">
-                                    <ButtonApply  text="Apply"/>
+                                    <ButtonApply idBA="btn-clear-applyfilter" handleClick={this.applyFilter} text="Apply"/>
                                 </div>
-                                
                             </div>
                         </div>
                     </div>
                 </div>
-            
         </div> 
-    )
+        )
     }
 }
 export default Page;

@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/counter-project-cornershop/static/css/main.ab407999.chunk.css",
-    "main.js": "/counter-project-cornershop/static/js/main.6b34e26d.chunk.js",
-    "main.js.map": "/counter-project-cornershop/static/js/main.6b34e26d.chunk.js.map",
+    "main.css": "/counter-project-cornershop/static/css/main.71c5b503.chunk.css",
+    "main.js": "/counter-project-cornershop/static/js/main.b827ddf0.chunk.js",
+    "main.js.map": "/counter-project-cornershop/static/js/main.b827ddf0.chunk.js.map",
     "runtime-main.js": "/counter-project-cornershop/static/js/runtime-main.f9aeb49e.js",
     "runtime-main.js.map": "/counter-project-cornershop/static/js/runtime-main.f9aeb49e.js.map",
     "static/css/2.510409cd.chunk.css": "/counter-project-cornershop/static/css/2.510409cd.chunk.css",
-    "static/js/2.ca76a4a7.chunk.js": "/counter-project-cornershop/static/js/2.ca76a4a7.chunk.js",
-    "static/js/2.ca76a4a7.chunk.js.map": "/counter-project-cornershop/static/js/2.ca76a4a7.chunk.js.map",
+    "static/js/2.2f5e59bd.chunk.js": "/counter-project-cornershop/static/js/2.2f5e59bd.chunk.js",
+    "static/js/2.2f5e59bd.chunk.js.map": "/counter-project-cornershop/static/js/2.2f5e59bd.chunk.js.map",
     "index.html": "/counter-project-cornershop/index.html",
-    "precache-manifest.5ff29ff3856a092269d2db950b69ba25.js": "/counter-project-cornershop/precache-manifest.5ff29ff3856a092269d2db950b69ba25.js",
+    "precache-manifest.38b9d81aed5f54da30f56767f37e6e7a.js": "/counter-project-cornershop/precache-manifest.38b9d81aed5f54da30f56767f37e6e7a.js",
     "service-worker.js": "/counter-project-cornershop/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/counter-project-cornershop/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.ab407999.chunk.css.map": "/counter-project-cornershop/static/css/main.ab407999.chunk.css.map"
+    "static/css/main.71c5b503.chunk.css.map": "/counter-project-cornershop/static/css/main.71c5b503.chunk.css.map",
+    "static/media/pika.png": "/counter-project-cornershop/static/media/pika.28d4a3f5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f9aeb49e.js",
     "static/css/2.510409cd.chunk.css",
-    "static/js/2.ca76a4a7.chunk.js",
-    "static/css/main.ab407999.chunk.css",
-    "static/js/main.6b34e26d.chunk.js"
+    "static/js/2.2f5e59bd.chunk.js",
+    "static/css/main.71c5b503.chunk.css",
+    "static/js/main.b827ddf0.chunk.js"
   ]
 }

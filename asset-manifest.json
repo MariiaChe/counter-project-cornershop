@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/counter-project-cornershop/static/css/main.ed0f5773.chunk.css",
-    "main.js": "/counter-project-cornershop/static/js/main.9839d461.chunk.js",
-    "main.js.map": "/counter-project-cornershop/static/js/main.9839d461.chunk.js.map",
+    "main.js": "/counter-project-cornershop/static/js/main.3a427d38.chunk.js",
+    "main.js.map": "/counter-project-cornershop/static/js/main.3a427d38.chunk.js.map",
     "runtime-main.js": "/counter-project-cornershop/static/js/runtime-main.f9aeb49e.js",
     "runtime-main.js.map": "/counter-project-cornershop/static/js/runtime-main.f9aeb49e.js.map",
     "static/css/2.510409cd.chunk.css": "/counter-project-cornershop/static/css/2.510409cd.chunk.css",
     "static/js/2.73f68478.chunk.js": "/counter-project-cornershop/static/js/2.73f68478.chunk.js",
     "static/js/2.73f68478.chunk.js.map": "/counter-project-cornershop/static/js/2.73f68478.chunk.js.map",
     "index.html": "/counter-project-cornershop/index.html",
-    "precache-manifest.73ecc8b5c8cf9d77efe1b5d2023acbc4.js": "/counter-project-cornershop/precache-manifest.73ecc8b5c8cf9d77efe1b5d2023acbc4.js",
+    "precache-manifest.b7a02fe95bfd229d4bb898b78f213869.js": "/counter-project-cornershop/precache-manifest.b7a02fe95bfd229d4bb898b78f213869.js",
     "service-worker.js": "/counter-project-cornershop/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/counter-project-cornershop/static/css/2.510409cd.chunk.css.map",
     "static/css/main.ed0f5773.chunk.css.map": "/counter-project-cornershop/static/css/main.ed0f5773.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.510409cd.chunk.css",
     "static/js/2.73f68478.chunk.js",
     "static/css/main.ed0f5773.chunk.css",
-    "static/js/main.9839d461.chunk.js"
+    "static/js/main.3a427d38.chunk.js"
   ]
 }

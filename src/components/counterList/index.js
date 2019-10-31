@@ -1,7 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import './styles.css';
 import SearchComponent from '../searchComponent/index';
-import Counter from '../counter/index'
+import Counter from '../counter/index';
+import Pikachu from '../../img/detective-pikachu.png'
 // import Page from './page'
 
 class CounterList extends  Component {
@@ -9,7 +10,8 @@ class CounterList extends  Component {
         super(props);
         this.state={
             counters:[],
-            query:''
+            query:'',
+            hasRes:true,
            
         }
         this.clearSearchComponent=this.clearSearchComponent.bind(this)
@@ -29,11 +31,14 @@ class CounterList extends  Component {
     }
     showCounterList(){
         return(
+          
             this.state.counters.map((counter, index)=>{
                 return(
+                    
                 <Counter idBML={`BML`+ counter.id} addCount={this.addCount} subtractCount={this.subtractCount} id={counter.id} deleteCounter={this.deleteCounter} count={counter.count} names={counter.title} key={counter.id}/>
                 )
             })
+      
         )
     }
     deleteCounter(idCounter){
@@ -116,9 +121,13 @@ class CounterList extends  Component {
             return counter.title === name
         })
         this.setState({counters:newCounters})
+        if(newCounters.length===0){
+            this.setState({hasRes:false})
+        }
     }
     clearSearchComponent(){
         this.setState({query:''})
+        this.setState({hasRes:true})
         this.componentDidMount();
     }
     render(){
@@ -132,11 +141,26 @@ class CounterList extends  Component {
                      </p>
                      </div>
                      <div className="col-7">
-                     <SearchComponent inputValue={this.state.query} handleClick={this.clearSearchComponent} handleChange={this.handleChange} handleKeyPress={this.handleKeyPress}/>
+                      <SearchComponent inputValue={this.state.query} handleClick={this.clearSearchComponent} handleChange={this.handleChange} handleKeyPress={this.handleKeyPress}/>
                      </div>
                  </div>
-                    {this.showCounterList()}
-                 </div>
+                    {this.state.hasRes?
+                    this.showCounterList():
+                    <div className="pikachu">
+                        <div className="row">
+                            <div className="col-12 col-md-6">
+                                <p>
+                                We could not find this name ... try again or add it to the list
+                                </p>
+                            </div>
+                            <div className="col-12 col-md-6">
+                                <img className="img-fluid" src={Pikachu}/>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
         )
     }
 }

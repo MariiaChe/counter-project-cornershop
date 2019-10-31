@@ -126,12 +126,12 @@ class CounterList extends  Component {
         return (
             <div className="counter-list container">
                 <div className="row search-bar">
-                    <div className="col-4">
+                    <div className="col-5">
                      <p>
                          Team List
                      </p>
                      </div>
-                     <div className="col-8">
+                     <div className="col-7">
                      <SearchComponent inputValue={this.state.query} handleClick={this.clearSearchComponent} handleChange={this.handleChange} handleKeyPress={this.handleKeyPress}/>
                      </div>
                  </div>

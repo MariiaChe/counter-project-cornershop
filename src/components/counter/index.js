@@ -9,17 +9,17 @@ class Counter extends Component{
     return (
    <React.Fragment>
     <div className="counter row">
-        <div className="col-5">
+        <div className="col-4">
             <div className="counter-name">
                 <div className="dot">
                 </div>
                 <p>{this.props.names}</p>
             </div>
         </div>
-        <div className="col-5"> 
+        <div className="col-4"> 
             <ButtonMoreLess id={this.props.id} idBML={this.props.idBML} subtractCount={this.props.subtractCount} addCount={this.props.addCount} count={this.props.count} />
         </div>
-        <div className="col-2">
+        <div className="col-4">
             <button onClick={()=>this.props.deleteCounter(this.props.id)} className="delete">
                 <img src={Delete}/>
             </button>

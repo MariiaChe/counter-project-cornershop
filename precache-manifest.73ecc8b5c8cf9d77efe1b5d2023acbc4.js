@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ae4ed45ac033e01767e1c57e6a5e548a",
+    "revision": "096144ce115e5285818a730f775ce164",
     "url": "/counter-project-cornershop/index.html"
   },
   {
-    "revision": "dfd4ccde3fdfd0c98c8b",
+    "revision": "00edf1a58cd44d8ca7e9",
     "url": "/counter-project-cornershop/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "1f9bbc85e9754113a1a7",
-    "url": "/counter-project-cornershop/static/css/main.71c5b503.chunk.css"
+    "revision": "aeeac9a5ee7df59fa967",
+    "url": "/counter-project-cornershop/static/css/main.ed0f5773.chunk.css"
   },
   {
-    "revision": "dfd4ccde3fdfd0c98c8b",
-    "url": "/counter-project-cornershop/static/js/2.2f5e59bd.chunk.js"
+    "revision": "00edf1a58cd44d8ca7e9",
+    "url": "/counter-project-cornershop/static/js/2.73f68478.chunk.js"
   },
   {
-    "revision": "1f9bbc85e9754113a1a7",
-    "url": "/counter-project-cornershop/static/js/main.b827ddf0.chunk.js"
+    "revision": "aeeac9a5ee7df59fa967",
+    "url": "/counter-project-cornershop/static/js/main.9839d461.chunk.js"
   },
   {
     "revision": "ab09dd506f89b6f5ef15",

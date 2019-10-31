@@ -62,7 +62,18 @@ class CounterList extends  Component {
             headers: {'content-type': 'application/json'},
             body: JSON.stringify({id: idCounter})
             })
-            .then(this.componentDidMount())
+            .then(res => res.json())
+            .then(res=>{
+                var counters=this.state.counters;
+                counters.map((counter, index)=>{
+                    if(counter.id === res.id){
+                       counter.count = res.count
+                    }
+                })
+                this.setState({
+                      counters:counters
+                })  
+            })
             .catch(error=>console.log('parsing failed', error))
     }
     addCount(idCounter){
@@ -72,10 +83,19 @@ class CounterList extends  Component {
             headers: {'content-type': 'application/json'},
             body: JSON.stringify({id: idCounter})
             })
-            // .then(res => res.json()) // OR res.json()
-            .then(this.componentDidMount())
-      
-
+            .then(res => res.json())
+            .then(res=>{
+                var counters=this.state.counters;
+                counters.map((counter, index)=>{
+                    if(counter.id === res.id){
+                       counter.count = res.count
+                    }
+                })
+                this.setState({
+                      counters:counters
+                })  
+            })
+            .catch(error=>console.log('parsing failed', error))
     }
     handleChange (e) {   
         console.log(e.target.value) 

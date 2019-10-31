@@ -16,3 +16,15 @@
     margin-left: .5rem;
     margin-right: .5rem;
 }
+.delete-icon img{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin-bottom:5px;
+}
+.search-bar .col-8 .main-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   
+}

@@ -12,7 +12,7 @@ class OrderCounters extends Component{
         this.clearOrder=this.clearOrder.bind(this);
         this.applyOrder=this.applyOrder.bind(this)
 
-    }
+    } 
     clearOrder(){
         alert('clearorder')
     }

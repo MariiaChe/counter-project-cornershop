@@ -13,11 +13,20 @@
     padding-bottom:10px;
     
 }
-.numbers input, .letters input{
+.row.letters{
+    padding-bottom:10px;
+}
+
+/* .numbers input{
     margin-top:-18px;
 }
+.letters input{
+    margin-top:-20px;
+} */
+
 .letters img{
     height: 23px;
+    margin-top:-3px;
 }
 .filter .radio-buttons{
     display: flex;
@@ -28,10 +37,10 @@
    display: flex;
    justify-content: left;
 }
-.add-counter .radio-buttons img{
+/* .add-counter .radio-buttons img{
    height: 15px;
    width: 15px;
-}
+} */
 
 .add-counter .form-radio
 {    
@@ -55,8 +64,9 @@
                    0px 1px 10px 0px rgba(0,0,0,0.12);
 }
 .add-counter .letters .form-radio{
-    margin-top:-17px;
+    margin-top:-19px;
 }
+
 .add-counter .numbers .form-radio{
     margin-top:-18px;
 }

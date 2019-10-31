@@ -9,8 +9,13 @@ class CounterList extends  Component {
         super(props);
         this.state={
             counters:[],
+            query:''
            
         }
+        this.clearSearchComponent=this.clearSearchComponent.bind(this)
+        this.searchCounter=this.searchCounter.bind(this);
+        this.handleKeyPress = this.handleKeyPress.bind(this);
+        this.handleChange= this.handleChange.bind(this);
         this.showCounterList=this.showCounterList.bind(this)
         this.deleteCounter=this.deleteCounter.bind(this)
         this.subtractCount=this.subtractCount.bind(this)
@@ -72,7 +77,30 @@ class CounterList extends  Component {
       
 
     }
-    
+    handleChange (e) {   
+        console.log(e.target.value) 
+        this.setState({query:e.target.value})
+        
+    };
+    handleKeyPress(e) {
+        if (e.key === 'Enter') {
+        
+          console.log('enter key pressed', this.state.query)
+          
+            this.searchCounter(this.state.query)
+        }
+    }
+    searchCounter(name){
+        const Counters = this.state.counters
+        const newCounters = Counters.filter(function(counter){
+            return counter.title === name
+        })
+        this.setState({counters:newCounters})
+    }
+    clearSearchComponent(){
+        this.setState({query:''})
+        this.componentDidMount();
+    }
     render(){
         // console.log(this.state.counters)
         return (
@@ -84,7 +112,7 @@ class CounterList extends  Component {
                      </p>
                      </div>
                      <div className="col-8">
-                     <SearchComponent/>
+                     <SearchComponent inputValue={this.state.query} handleClick={this.clearSearchComponent} handleChange={this.handleChange} handleKeyPress={this.handleKeyPress}/>
                      </div>
                  </div>
                     {this.showCounterList()}

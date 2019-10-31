@@ -16,7 +16,7 @@ class Counter extends Component{
                 <p>{this.props.names}</p>
             </div>
         </div>
-        <div className="col-5">
+        <div className="col-5"> 
             <ButtonMoreLess id={this.props.id} idBML={this.props.idBML} subtractCount={this.props.subtractCount} addCount={this.props.addCount} count={this.props.count} />
         </div>
         <div className="col-2">

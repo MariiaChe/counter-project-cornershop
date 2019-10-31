@@ -45,7 +45,7 @@ class Page extends Component{
                             </div>
                             <div className="col-4">
                                 <div>
-                                    <ButtonMoreLess /> 
+                                    <ButtonMoreLess idBML={this.props.idBML} /> 
                                 </div>
                             </div>
                             <div className="col-4">

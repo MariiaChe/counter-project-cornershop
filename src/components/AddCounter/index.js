@@ -49,9 +49,6 @@ class AddCounter extends Component {
                         <div className="col-9">
                             <input type="text" placeholder="  Put name..." onChange={(e)=>this.handleChange(e)} />
                         </div> 
-                        {/* <div className="col-md-4 col-6">
-                            <ButtonMoreLess idBML="btn-add-counter"/>
-                        </div>  */}
                         <div className="col-3">
                             <ButtonApply idBa="btn-add-new-counter" handleClick={this.addPost} text="Add" />
                         </div> 

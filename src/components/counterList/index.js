@@ -12,6 +12,7 @@ class CounterList extends  Component {
             counters:[],
             query:'',
             hasRes:true,
+            totalCount:0
            
         }
         this.clearSearchComponent=this.clearSearchComponent.bind(this)
@@ -21,12 +22,14 @@ class CounterList extends  Component {
         this.showCounterList=this.showCounterList.bind(this)
         this.deleteCounter=this.deleteCounter.bind(this)
         this.subtractCount=this.subtractCount.bind(this)
-        this.addCount=this.addCount.bind(this)
+        this.addCount=this.addCount.bind(this);
+        this.calculeTotalCount=this.calculeTotalCount.bind(this);
     }
     componentDidMount(){
         fetch(`http://localhost:3000/api/v1/counters`)
         .then(response=> response.json())
         .then(data =>this.setState({counters:data}))
+        .then(data=>this.calculeTotalCount(this.state.counters))
         .catch(error=>console.log('parsing failed', error))
     }
     showCounterList(){
@@ -53,8 +56,10 @@ class CounterList extends  Component {
             
          //delete from component
             let newCounters = [...this.state.counters];
+            console.log(newCounters)
             for( let i = 0; i<newCounters.length; i++){
                 if ( newCounters[i].id === idCounter){
+                    this.setState({totalCount:this.state.totalCount-newCounters[i].count})
                     newCounters.splice(i, 1);
                    
                 }
@@ -77,6 +82,9 @@ class CounterList extends  Component {
                 })
                 this.setState({
                       counters:counters
+                }) 
+                this.setState({
+                    totalCount:this.state.totalCount-1
                 })  
             })
             .catch(error=>console.log('parsing failed', error))
@@ -98,6 +106,9 @@ class CounterList extends  Component {
                 })
                 this.setState({
                       counters:counters
+                })
+                this.setState({
+                    totalCount:this.state.totalCount+1
                 })  
             })
             .catch(error=>console.log('parsing failed', error))
@@ -130,6 +141,13 @@ class CounterList extends  Component {
         this.setState({hasRes:true})
         this.componentDidMount();
     }
+    calculeTotalCount(counters){
+       var result = this.state.totalCount
+       for(let i = 0; i < counters.length; i++){
+           result = result + counters[i].count
+       }
+       this.setState({totalCount:result})
+    }
     render(){
         // console.log(this.state.counters)
         return (
@@ -137,11 +155,16 @@ class CounterList extends  Component {
                 <div className="row search-bar">
                     <div className="col-5">
                      <p>
-                         Team List
+                        Total Count: {this.state.totalCount}
                      </p>
                      </div>
                      <div className="col-7">
                       <SearchComponent inputValue={this.state.query} handleClick={this.clearSearchComponent} handleChange={this.handleChange} handleKeyPress={this.handleKeyPress}/>
+                     </div>
+                 </div>
+                 <div className="row count-list">
+                     <div className="col-12">
+                         <p>Count list</p>
                      </div>
                  </div>
                     {this.state.hasRes?

@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/counter-project-cornershop/static/css/main.0b371e72.chunk.css",
-    "main.js": "/counter-project-cornershop/static/js/main.e1f08f69.chunk.js",
-    "main.js.map": "/counter-project-cornershop/static/js/main.e1f08f69.chunk.js.map",
+    "main.css": "/counter-project-cornershop/static/css/main.2886069a.chunk.css",
+    "main.js": "/counter-project-cornershop/static/js/main.1cea2639.chunk.js",
+    "main.js.map": "/counter-project-cornershop/static/js/main.1cea2639.chunk.js.map",
     "runtime-main.js": "/counter-project-cornershop/static/js/runtime-main.f9aeb49e.js",
     "runtime-main.js.map": "/counter-project-cornershop/static/js/runtime-main.f9aeb49e.js.map",
     "static/css/2.510409cd.chunk.css": "/counter-project-cornershop/static/css/2.510409cd.chunk.css",
-    "static/js/2.74bac636.chunk.js": "/counter-project-cornershop/static/js/2.74bac636.chunk.js",
-    "static/js/2.74bac636.chunk.js.map": "/counter-project-cornershop/static/js/2.74bac636.chunk.js.map",
+    "static/js/2.aa9925a5.chunk.js": "/counter-project-cornershop/static/js/2.aa9925a5.chunk.js",
+    "static/js/2.aa9925a5.chunk.js.map": "/counter-project-cornershop/static/js/2.aa9925a5.chunk.js.map",
     "index.html": "/counter-project-cornershop/index.html",
-    "precache-manifest.270e1b0ac58c128203596246836e562e.js": "/counter-project-cornershop/precache-manifest.270e1b0ac58c128203596246836e562e.js",
+    "precache-manifest.dadb55aad315ed870f39b86ee224214a.js": "/counter-project-cornershop/precache-manifest.dadb55aad315ed870f39b86ee224214a.js",
     "service-worker.js": "/counter-project-cornershop/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/counter-project-cornershop/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.0b371e72.chunk.css.map": "/counter-project-cornershop/static/css/main.0b371e72.chunk.css.map",
+    "static/css/main.2886069a.chunk.css.map": "/counter-project-cornershop/static/css/main.2886069a.chunk.css.map",
     "static/media/detective-pikachu.png": "/counter-project-cornershop/static/media/detective-pikachu.8ce41bc0.png",
     "static/media/pika.png": "/counter-project-cornershop/static/media/pika.28d4a3f5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f9aeb49e.js",
     "static/css/2.510409cd.chunk.css",
-    "static/js/2.74bac636.chunk.js",
-    "static/css/main.0b371e72.chunk.css",
-    "static/js/main.e1f08f69.chunk.js"
+    "static/js/2.aa9925a5.chunk.js",
+    "static/css/main.2886069a.chunk.css",
+    "static/js/main.1cea2639.chunk.js"
   ]
 }

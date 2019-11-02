@@ -139,10 +139,10 @@ class CounterList extends  Component {
     clearSearchComponent(){
         this.setState({query:''})
         this.setState({hasRes:true})
-        this.componentDidMount();
+       this.componentDidMount();
     }
     calculeTotalCount(counters){
-       var result = this.state.totalCount
+       var result = 0
        for(let i = 0; i < counters.length; i++){
            result = result + counters[i].count
        }

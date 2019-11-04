@@ -10,9 +10,9 @@ class App extends Component{
   constructor(props){
     super(props);
     this.state={
-      showFilter:true,
+      showFilter:false,
       showOrder:false,
-      showAdd:false
+      showAdd:true
     }
   }
 
@@ -44,6 +44,22 @@ class App extends Component{
               <div className="row">
                 <div className="col-12 col-md-6 filter-addcounter">
                   <div className="row">
+                    {this.state.showAdd?
+                      <div className="btns col-4">
+                        <button style={styles} onClick={()=>{this.toggleButtons('add')}}>Add</button>
+                      </div>:
+                      <div className="btns col-4">
+                      <button onClick={()=>{this.toggleButtons('add')}}>Add</button>
+                    </div>
+                      }
+                      {this.state.showOrder?
+                    <div className="btns col-4">
+                      <button style={styles} onClick={()=>{this.toggleButtons('order')}} >Order</button>
+                    </div>:
+                    <div className="btns col-4">
+                      <button onClick={()=>{this.toggleButtons('order')}} >Order</button>
+                    </div>
+                    }
                     {this.state.showFilter?
                     <div className="btns col-4">
                       <button style={styles} onClick={()=>{this.toggleButtons('filter')}}>Filter</button>
@@ -52,27 +68,13 @@ class App extends Component{
                       <button onClick={()=>{this.toggleButtons('filter')}}>Filter</button>
                     </div>
                     }
-                    {this.state.showOrder?
-                    <div className="btns col-4">
-                      <button style={styles} onClick={()=>{this.toggleButtons('order')}} >Order</button>
-                    </div>:
-                    <div className="btns col-4">
-                      <button onClick={()=>{this.toggleButtons('order')}} >Order</button>
-                    </div>
-                    }
-                    {this.state.showAdd?
-                    <div className="btns col-4">
-                      <button style={styles} onClick={()=>{this.toggleButtons('add')}}>Add</button>
-                    </div>:
-                    <div className="btns col-4">
-                    <button onClick={()=>{this.toggleButtons('add')}}>Add</button>
-                  </div>
-                    }
+                    
+                    
                   </div>
                   <div className="row">
                     {
-                      this.state.showFilter?
-                      <div className="col-12 filter-container"><FilterBar/></div>:
+                      this.state.showAdd?
+                      <div className="col-12 add-container"><AddCounter/></div>:
                       null
                     }
                     {
@@ -81,10 +83,12 @@ class App extends Component{
                       null
                     }
                     {
-                      this.state.showAdd?
-                      <div className="col-12 add-container"><AddCounter/></div>:
+                      this.state.showFilter?
+                      <div className="col-12 filter-container"><FilterBar/></div>:
                       null
                     }
+                    
+                   
                     
                   </div>
                 </div>

@@ -181,7 +181,6 @@ class CounterList extends  Component {
                             </div>
                         </div>
                     </div>
-
                 }
             </div>
         )

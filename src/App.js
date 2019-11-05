@@ -3,7 +3,7 @@ import IAppBar from './components/appBar/index';
 import FilterBar from './components/filterBar/index';
 import CounterList from './components/counterList/index';
 import './App.css';
-import AddCounter from './components/AddCounter';
+import AddCounter from './components/addCounter/index';
 import OrderCounters from './components/orderCounters/index'
 
 class App extends Component{

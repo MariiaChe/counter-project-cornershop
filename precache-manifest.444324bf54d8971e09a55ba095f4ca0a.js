@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efecb6e671c6247da00dc35bb68946f3",
+    "revision": "8fc978e4d3d7f639f13c49d001fc7cc3",
     "url": "/counter-project-cornershop/index.html"
   },
   {
-    "revision": "5d312a05611bae7cd453",
+    "revision": "290dfc366f2eb71f9546",
     "url": "/counter-project-cornershop/static/css/2.510409cd.chunk.css"
   },
   {
-    "revision": "56d8346693cb9580532c",
+    "revision": "f3f19618328ff1ddda8b",
     "url": "/counter-project-cornershop/static/css/main.9ebff028.chunk.css"
   },
   {
-    "revision": "5d312a05611bae7cd453",
-    "url": "/counter-project-cornershop/static/js/2.aa9925a5.chunk.js"
+    "revision": "290dfc366f2eb71f9546",
+    "url": "/counter-project-cornershop/static/js/2.3482b963.chunk.js"
   },
   {
-    "revision": "56d8346693cb9580532c",
-    "url": "/counter-project-cornershop/static/js/main.83ff2265.chunk.js"
+    "revision": "f3f19618328ff1ddda8b",
+    "url": "/counter-project-cornershop/static/js/main.402a2dcf.chunk.js"
   },
   {
     "revision": "ab09dd506f89b6f5ef15",
